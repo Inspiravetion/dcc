@@ -7,6 +7,7 @@ import { join } from "node:path";
 import Routes from './navigation';
 
 export default defineConfig({
+  base: "/dcc/",
   plugins: [
     remix({
       ssr: false,
