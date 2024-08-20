@@ -10,6 +10,7 @@ export default defineConfig({
   plugins: [
     remix({
       ssr: false,
+      basename: "/dcc/",
       future: {
         v3_fetcherPersist: true,
         v3_relativeSplatPath: true,
